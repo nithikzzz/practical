@@ -18,7 +18,8 @@ public class PersonTax {
 		p.setIncome(income);
 		Taxcalc calc=new Taxcalc();
 		calc.calctax(p);
-		
+		System.out.println("After calc ");
+		System.out.println(p);
 	}
 
 }
