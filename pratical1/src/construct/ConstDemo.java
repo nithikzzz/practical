@@ -16,7 +16,7 @@ public class ConstDemo {
 		Id=ob.nextInt();
 		System.out.println("Enter the Employee City");
 		City=ob.next();
-		System.out.println(ob.toString());
+		System.out.println(ob.toString());  
 	}
 
 }
