@@ -9,14 +9,14 @@ public class ConstDemo {
 		Scanner ob=new Scanner(System.in);
 		String Name,City;
 		int Id;
-		System.out.println("Enter the Employee Name"); 
+		System.out.print("Enter the Employee Name"); 
 		Name=ob.next();
 		ob.nextLine();
-		System.out.println("Enter the Employee Id");
+		System.out.print("Enter the Employee Id");
 		Id=ob.nextInt();
-		System.out.println("Enter the Employee City");
+		System.out.print("Enter the Employee City");
 		City=ob.next();
-		System.out.println(ob.toString());  
+		  
 	}
 
 }
