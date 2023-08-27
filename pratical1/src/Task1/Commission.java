@@ -26,15 +26,10 @@ public class Commission {
 	public int getSales_amount() {
 		return Sales_amount;
 	}
-	public void setSales_amount(int sales_amount) {
-		Sales_amount = sales_amount;
+	public int setSales_amount(int sales_amount) {
+		return Sales_amount = sales_amount;
 	}
-	@Override
-	public String toString() {
-		return "Commission [Name=" + Name + ", Address=" + Address + ", Phone=" + Phone + ", Sales_amount="
-				+ Sales_amount + ", getName()=" + getName() + ", getAddress()=" + getAddress() + ", getPhone()="
-				+ getPhone() + ", getSales_amount()=" + getSales_amount() + "]";
-	}
+	
 	
 	
 }

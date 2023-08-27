@@ -26,8 +26,7 @@ public class Sales_commission {
 		
 		Calc_commission cc=new Calc_commission();
 		cc.Calc(co);
-		System.out.print("Commission amount is ");
-		System.out.print(co);
+		
 		
 	}
 
