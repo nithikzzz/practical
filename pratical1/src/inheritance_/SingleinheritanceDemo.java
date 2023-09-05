@@ -8,3 +8,4 @@ public class SingleinheritanceDemo {
 		System.out.print(st.toString());
 	}
 }
+ 
