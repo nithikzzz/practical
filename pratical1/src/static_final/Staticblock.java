@@ -17,4 +17,7 @@ public class Staticblock {
 	static void display() {
 		System.out.println("Serial no" + srno);
 	}
+	void display() {
+		System.out.println("Serial no" + srno);
+	}
 }
